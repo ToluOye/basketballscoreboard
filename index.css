@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    background: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    color:#EEEEEE;  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+}
+
+.title-home {
+    width:20%;
+    margin-right:100px;
+    margin-top: 70px;
+}
+
+.title-guest {
+    width:20%;
+    margin-left:100px;
+    margin-top: 70px;
+}
+
+.counter-display {
+    display: flex;
+    justify-content: center;
+    color: #F94F6D;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 90px;
+}
+
+.scoreboard {
+    text-align: center;
+    border-radius: 5px;
+    border:2px solid #080001;
+    border-color:black;
+    padding:10px 20px;
+    margin-bottom: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: -30px;
+    width:155px;
+    align-items: center;
+    background: #080001;
+    line-height: 120px; 
+}
+
+.increment-btn {
+    
+ display:flex;
+ justify-content: center;
+
+
+}
+
+.increment-btn .btn-home
+{
+    margin-bottom: 70px;
+    font-family:'Cursed Timer ULiL', sans-serif;
+    color:#9AABD8;
+    background-color:#1B244A;
+    border:2px solid #9AABD8;
+    border-radius: 5px;
+}
+
+.home-wrapper {
+    padding-right:100px;
+    margin-right:80px;
+}
+
+.guest-wrapper {
+    padding-left:100px;
+}
+
+.increment-btn .btn-guest
+{ 
+    margin-bottom: 70px;
+    font-family:'Cursed Timer ULiL', sans-serif;
+    color:#9AABD8;
+    background-color:#1B244A;
+    border:2px solid #9AABD8;
+    border-radius: 5px;
+}
+
+
+.btn-addscore{
+margin-left:2px;
+}
+
+
